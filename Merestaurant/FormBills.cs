@@ -17,11 +17,6 @@ namespace Merestaurant
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button21_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -64,10 +59,6 @@ namespace Merestaurant
             }
         }
 
-        private void lbTotalAmount_Click(object sender, EventArgs e)
-        {
-
-        }
 
         cTables tables = new cTables();
         cReservation res = new cReservation();
@@ -123,9 +114,5 @@ namespace Merestaurant
             }
         }
 
-        private void lvBill_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

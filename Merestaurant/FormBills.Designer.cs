@@ -63,7 +63,6 @@
             this.lvBill.TabIndex = 0;
             this.lvBill.UseCompatibleStateImageBehavior = false;
             this.lvBill.View = System.Windows.Forms.View.Details;
-            this.lvBill.SelectedIndexChanged += new System.EventHandler(this.lvBill_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -98,7 +97,6 @@
             this.label1.Size = new System.Drawing.Size(289, 39);
             this.label1.TabIndex = 1;
             this.label1.Text = "Total Amount =";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lbTotalAmount
             // 
@@ -111,7 +109,6 @@
             this.lbTotalAmount.Size = new System.Drawing.Size(37, 39);
             this.lbTotalAmount.TabIndex = 1;
             this.lbTotalAmount.Text = "0";
-            this.lbTotalAmount.Click += new System.EventHandler(this.lbTotalAmount_Click);
             // 
             // label2
             // 
@@ -124,7 +121,6 @@
             this.label2.Size = new System.Drawing.Size(135, 39);
             this.label2.TabIndex = 1;
             this.label2.Text = "Orders";
-            this.label2.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnCloseAccount
             // 
@@ -211,7 +207,6 @@
             this.label3.Size = new System.Drawing.Size(63, 39);
             this.label3.TabIndex = 1;
             this.label3.Text = "TL";
-            this.label3.Click += new System.EventHandler(this.lbTotalAmount_Click);
             // 
             // FormBills
             // 
